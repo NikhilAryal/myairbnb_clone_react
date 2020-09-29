@@ -1,0 +1,41 @@
+.banner {
+    height: 75vh;
+    /*background: url('https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=720') no-repeat center center;*/
+    background: url("../images/landscape_mountains.jpeg") center center;
+    background-size: cover;
+    position: relative;
+    /*width: 100vw;*/
+}
+
+.banner__info {
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    padding: 25vh 50px 50px 30px;
+    width: 200px;
+
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 500 !important;
+    text-transform: inherit !important;
+    color: hotpink !important;
+}
+
+.banner__info > Button {
+    color: white;
+    text-transform: inherit;
+    background-color: hotpink;
+    margin-top: 5vh;
+    opacity: 1;
+}
+
+
+/*      <div class="_15p4g025" style="background-image:url(https://a0.muscache.com/im/pictures
+        /18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=720);background-size:cover"></div>       */
